@@ -1,0 +1,137 @@
+#logo{
+    width: 300px;
+    height: 100px;
+    margin-top: 80px;
+    margin-left: 300px;
+    float: left;
+}
+
+img{
+    float: right;
+    width: 40%;
+    height: 1000px;
+}
+
+
+#heading1{
+    
+    margin-top: 50px;
+    margin-left: 240px;
+    margin-right: 100px;
+    color: rgb(44, 15, 150);
+    font-style:bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+}
+
+#button1{
+    border:1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    margin-left: 240px;
+    margin-top: 40px;
+    text-align: center;
+    height: 3.5em;
+    width: 30em;
+    color: gray;
+    cursor: pointer;
+
+}
+
+
+#heading0{
+    margin-top: 180px;
+    margin-left: 320px;
+    color: rgba(1, 0, 2, 0.938);
+    position: absolute;
+    font-style:normal;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+
+#Gicon{
+    height: 30px;
+    width:50px;
+    position:absolute;
+    left:1px;
+    font-size: 4em;
+    margin-top: 47px;
+    margin-left: 255px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+}
+h5{
+    font-size:12px;
+    margin-left:280px;
+    opacity:0.4;
+    font-family: sans-serif;
+}
+
+form{
+    margin-left: 240px;
+    margin-top: 20px;
+}
+
+::placeholder{
+    font-style: italic;
+    right: 20px;
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+.label1{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+    opacity:0.5;
+}
+
+.inputs{
+    border: 1px solid rgb(49, 47, 47);
+    border-radius: 6px;
+    box-sizing: border-box;
+    text-align: left;
+    margin-top: 10px;
+    width: 12.5em;
+    height: 1.5em;
+    font-size: 2em;
+    opacity: 0.5;
+}
+
+input:-webkit-autofill::first-line {
+  font-size: 2em;
+}
+
+
+
+#remember{
+    opacity: 0.5;
+
+}
+.link1{
+    margin-left: 150px;
+    opacity:0.35;
+    color: rgb(58, 47, 47);
+}
+#button3{
+    border-radius: 10px;
+    width: 30em ;
+    height:3em;
+    margin-top: 40px;
+    background-color: rgb(49, 49, 129);
+    color: azure;
+    cursor: pointer;
+}
+
+.div4{
+    margin-top: 40px;
+    margin-left: 320px;
+    }
+
+#label4{
+    opacity: 0.6;
+    margin-top: 40px;
+    margin-left: 150px;
+        
+    }

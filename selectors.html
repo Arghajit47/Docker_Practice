@@ -1,0 +1,44 @@
+<!-- CSS pseudo-classes are used to add styles to selectors, but only when those selectors meet certain conditions. A pseudo class is expressed by adding a colon (:) after a selector in CSS, followed by a pseudo-class such as "hover", "focus", or "active", like this: a:hover { /* your style here */ } -->
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced CSS Selectors</title>
+    <style>
+        h1 {
+            background-color: red;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+        div p {
+            color: black;
+            background-color: orange;
+            font-weight: bold;
+        }
+	div>p{
+            background-color: lightblue;
+            color:white;
+        }
+	div+p{
+          color: white;
+          background-color:red;
+      }
+    </style>
+</head>
+<body>
+    <h1> This is more on selectors</h1>
+    <div class="container">
+        <div class="row">
+            <p> This is a paragraph</p>
+        </div>
+        <p> This is another paragraph</p>
+    </div>
+    <p> This is the third paragraph</p>
+</body>
+</html>

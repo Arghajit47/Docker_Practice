@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example</title>
+    </head>
+    <body>
+        <p>This is an example of a simple HTML page with one paragraph.</p>
+    </body>
+</html>
+<!-- 
+id - Denotes the unique ID of an element in a page. Used for locating elements by using links, JavaScript, and more.
+
+class - Denotes the CSS class of an element. Explained in the CSS Basics tutorial.
+
+style - Denotes the CSS styles to apply to an element. Explained in the CSS Basics tutorial.
+
+data-x attributes - A general prefix for attributes that store raw information for programmatic purposes. Explained in detailed in the Data Attributes section. 
+-->

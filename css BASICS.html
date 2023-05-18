@@ -1,0 +1,101 @@
+<!-- CSS = CASCADING STYLE SHEET 
+syntax: selector
+	{
+		property:value
+		property:value
+	}
+types of selectors:
+	1. class selectors(.a)
+	2. id selectors(#B)
+	3. element selector(h2,h3,body)
+how to implement:
+	1. Inline: Define the style in the same line
+	2. Internal Style: Defining a style in head section
+	3. External Style: Define seperate file with style(A.css)
+Cascading: Nearer the style and higher the effect.
+	--Inline
+	--Internal
+	--External
+DIV & SPAN :: BOTH ARE CONTAINERS
+	1. DIV: BLOCK LEVEL CONTAINER
+	2. SPAN: CHAR LEVEL CONTAINER
+
+GROUPING OF STYLES :: 
+	H2,H3,H4,H5
+	{
+		FONT-SIZE:1CM;
+		COLOR:GREEN;
+		BORDER:SOLID 5PT RED;
+	}
+INHERITENCE :: example of <P>
+
+
+-->
+<HTML>
+<HEAD><TITLE>MY FIRST STYLE SHEET</TITLE>
+<STYLE>
+	P
+	{
+		BACKGROUND-COLOR: WHITE;
+	}
+
+
+	BODY
+	{
+		BACKGROUND-IMAGE:URL("file:///C:/Users/ASUGHAN/Desktop/DEATH.png");
+		BACKGROUND-ATTACHMENT:FIXED;
+		BACKGROUND-REPEAT:NO-REPEAT;
+		BACKGROUND-COLOR:SILVER;
+		MARGIN-LEFT:1IN;
+		MARGIN-RIGHT:1IN;
+		MARGIN-TOP:1IN;
+		MARGIN-BOTTOM:1IN;
+		BORDER:SINGLE RED 2PT;
+		PADDING-LEFT:5PT;
+		PADDING-TOP:5PT;
+		PADDING-RIGHT:5PT;
+	}
+
+	H2,h5,h3,h4
+	{
+		FONT-SIZE:1CM;
+		COLOR:GREEN;
+		BORDER:SOLID 5PT RED;
+	}
+
+	.a
+	{
+		FONT-SIZE:50PT;
+		COLOR:GREEN;
+		BORDER:DASHED 5PT RED;
+	}
+	#B
+	{
+		FONT-SIZE:30PX;
+		COLOR:BLUE;
+		BORDER:INSET 2PT RED;
+	}
+</STYLE>
+</HEAD>
+<BODY>
+<DIV STYLE="BACKGROUND-COLOR:YELLOW">
+	ARGHAJIT SINGHA
+</DIV> 
+
+<DIV STYLE="Z-INDEX:0;LEFT:1PT;TOP:1PT;WIDTH:110PT;HEIGHT:110PT;BACKGROUND-COLOR:SILVER;POSITION:ABSOLUTE;"></DIV>
+<DIV STYLE="Z-INDEX:1;LEFT:3PT;TOP:1PT;WIDTH:55PT;HEIGHT:55PT;BACKGROUND-COLOR:GREEN;POSITION:ABSOLUTE;"></DIV>
+
+<SPAN STYLE="BACKGROUND-COLOR:YELLOW">
+	ARGHAJIT SINGHA
+</SPAN> 
+
+<P>I AM LEARNING HOW TO USE <B>INHERITENCE</B></P>
+
+<H1 STYLE="FONT SIZE:1IN; COLOR:RED;BORDER:DOTTED 5PT GREEN">CSS(INLINE STYLE),</H1>
+<H1 CLASS=a>CSS(CLASS STYLE)</H1>
+<H1 ID=B>CSS(ID STYLE)</H1>
+<H2>DEFINING STYLE WITH TAG</H2>
+<H5>SOMETHING</H5>
+</BODY>
+</HTML>
+Flex, pseudo selectors,external css

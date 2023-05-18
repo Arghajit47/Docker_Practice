@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <title>Advanced CSS Selectors(before & after pseudo selectors)</title>
+</head>
+<style>
+body {
+	background-color:black;
+	color:white;
+	margin: 0;
+	padding: 0;
+}
+.navigation{
+	display:flex;
+        font-size: 20px;
+	font-family: 'Bree Serif',serif;
+}
+section {
+            height: 344px;
+            font-family: 'Bree Serif', serif;
+            margin: 3px 230px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+section:: before{
+	content:"This is a content";
+}
+li {
+	list-style: none;
+	padding: 25px 25px;
+}
+h1 {
+	font-size: 1.5cm;
+}
+p {
+	text-align: center;
+}
+  header::before{
+            background: url('https://images.unsplash.com/photo-1631584019628-2cd1be3a6de2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY0OTIzMTE2Mw&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.4;
+        }
+section::after {
+	content:"This is an trial website";
+}
+</style>
+
+<body>
+<header>
+	<nav class="navbar">
+	<ul class="navigation">
+		<li class="item">Home</li>
+
+		<li class="item">About</li>
+
+		<li class="item">Services</li>
+
+		<li class="item">Contact Us</li>
+	</ul>
+	</nav>
+</header>
+<section>
+	<h1>Welcome To Coding World</h1>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nemo provident fugit ipsam consectetur veritatis quos laborum rem, dolores non ut, quisquam, dicta laboriosam. Hic, doloribus minima facere laudantium doloremque quam explicabo qui consectetur.</p>
+</section>
+</body>
+</html>

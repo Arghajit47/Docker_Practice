@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productboard</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="icon" type="image/png" href="logo.jpg">
+    
+</head>
+<body>
+    <div class="div1">
+        <img src="cover.jpeg"/>
+        <img id="logo"  src="logo.jpg"></img>
+        <h1 id="heading0">Productboard</h1>
+    
+    <h1 id="heading1"><strong> Sign In to your Workspace</strong></h1>
+    <div class="gsign">
+    <button type="button" style="background-color: white;" id="button1"><strong>Sign in with Google </strong></button>
+    <img src="google-logo.jpg" id="Gicon" />
+    </div>
+    </div>
+    <br>
+    <h5 >-------------------------------------OR----------------------------------------</h5>
+    
+    
+    <form>
+    <div>
+        <label class="label1" for="email">Email:</label>
+        <br>
+        <input class="inputs" type="text" id="email" placeholder=" email@company.com" required>
+        </div>
+        <br>
+        <div class="formpassword">
+        <label class="label1" for="pswd">Password: </label>
+        <div class="passbox">
+        <input class="inputs"  id="pswd" type="password"  placeholder=" Password" required>
+        
+        </div>
+        <br>
+        <input type="checkbox" name="Remember me" id="rcheck" value="remember"/>
+        <label id="remember">Remember Me </label>
+        <a class="link1" href="#">Forgot Password!</a>
+        <br>
+        <button id="button3" type="submit" onsubmit="validateEmail(),checkPass()"><strong>Login </strong></button>
+    </div>
+    </form>
+    <div class="div4">
+        <label id="label2" for="link2">Don't have an account?</label>
+        <a id="reglink" href="#">Sign Up</a>
+    </div>
+    </div>
+    <script src="Check.js"></script>
+
+    
+</body>
+</html>
