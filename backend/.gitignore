@@ -151,3 +151,5 @@ secrets/secrets
 secrets/secrets.*
 
 scripts/db/config/config.json
+
+backend/package-lock.json
